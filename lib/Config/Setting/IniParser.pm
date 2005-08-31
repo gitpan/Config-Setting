@@ -93,7 +93,7 @@ perl(1).
 
 =head1 AUTHOR
 
-Dominic Mitchell, E<lt>cpan@happygiraffe.netE<gt>.
+Dominic Mitchell, E<lt>cpan (at) happygiraffe.netE<gt>.
 
 =head1 BUGS
 
@@ -111,8 +111,8 @@ use vars qw($rcsid $VERSION);
 use Carp;
 use Config::Setting::Chunk;
 
-$rcsid = '@(#) $Id: IniParser.pm 552 2005-02-22 13:26:07Z dom $ ';
-$VERSION = (qw( $Revision: 552 $ ))[1];
+$rcsid = '@(#) $Id: IniParser.pm 765 2005-08-31 20:05:59Z dom $ ';
+$VERSION = (qw( $Revision: 765 $ ))[1];
 
 # Pass in either a Filename parameter or a String parameter.
 sub new {

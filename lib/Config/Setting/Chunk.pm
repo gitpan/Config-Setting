@@ -94,7 +94,7 @@ debugging.
 
 =head1 AUTHOR
 
-Dominic Mitchell, E<lt>cpan@happygiraffe.netE<gt>
+Dominic Mitchell, E<lt>cpan (at) happygiraffe.netE<gt>
 
 =head1 SEE ALSO
 
@@ -109,8 +109,8 @@ use vars qw($VERSION $rcsid);
 
 use Carp;
 
-$VERSION = ( qw( $Revision: 552 $ ) )[1];
-$rcsid   = '@(#) $Id: Chunk.pm 552 2005-02-22 13:26:07Z dom $ ';
+$VERSION = ( qw( $Revision: 765 $ ) )[1];
+$rcsid   = '@(#) $Id: Chunk.pm 765 2005-08-31 20:05:59Z dom $ ';
 
 sub new {
         my $class = shift;

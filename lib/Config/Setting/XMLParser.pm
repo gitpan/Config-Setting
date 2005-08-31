@@ -96,7 +96,7 @@ L<XML::Parser>.
 
 =head1 AUTHOR
 
-Dominic Mitchell, E<lt>cpan@happygiraffe.netE<gt>.
+Dominic Mitchell, E<lt>cpan (at) happygiraffe.netE<gt>.
 
 =cut
 
@@ -109,8 +109,8 @@ use Carp;
 use Config::Setting::Chunk;
 use XML::Parser;
 
-$rcsid = '@(#) $Id: XMLParser.pm 552 2005-02-22 13:26:07Z dom $ ';
-$VERSION = (qw( $Revision: 552 $ ))[1];
+$rcsid = '@(#) $Id: XMLParser.pm 765 2005-08-31 20:05:59Z dom $ ';
+$VERSION = (qw( $Revision: 765 $ ))[1];
 
 sub new {
         my $class = shift;

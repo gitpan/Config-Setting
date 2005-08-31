@@ -85,7 +85,7 @@ Return a list of file contents, one per file read.
 
 =head1 AUTHOR
 
-Dominic Mitchell, E<lt>cpan@happygiraffe.netE<gt>
+Dominic Mitchell, E<lt>cpan (at) happygiraffe.netE<gt>
 
 =head1 SEE ALSO
 
@@ -101,8 +101,8 @@ use vars qw($rcsid $VERSION $default);
 use Carp;
 use Sys::Hostname;
 
-$rcsid = '@(#) $Id: FileProvider.pm 555 2005-02-22 13:31:01Z dom $ ';
-$VERSION = (qw( $Revision: 555 $ ))[1];
+$rcsid = '@(#) $Id: FileProvider.pm 765 2005-08-31 20:05:59Z dom $ ';
+$VERSION = (qw( $Revision: 765 $ ))[1];
 $default = "~/.settingsrc";
 
 sub new {
